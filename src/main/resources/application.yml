@@ -3,9 +3,9 @@ spring:
       ds0:
          driverClassName: com.mysql.cj.jdbc.Driver
          type: com.alibaba.druid.pool.DruidDataSource
-         url: jdbc:mysql://localhost:3306/cart_1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-         username: apps
-         password: apps        
+         url: jdbc:mysql://172.18.66.88:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+         username: root
+         password: root123!        
          initial-size: 5
          min-idle: 5
          max-idle: 10
@@ -29,9 +29,9 @@ spring:
       ds1:
          driverClassName: com.mysql.cj.jdbc.Driver
          type: com.alibaba.druid.pool.DruidDataSource
-         url: jdbc:mysql://localhost:3306/cart_1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-         username: apps
-         password: apps        
+         url: jdbc:mysql://172.18.66.88:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+         username: root
+         password: root123!        
          initial-size: 5
          min-idle: 5
          max-idle: 10
